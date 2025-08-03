@@ -205,9 +205,9 @@ public class TestCases {
         System.out.println("Login Or Register Button Text If not Logged In: "
                 + WrapperClass.getText(driver, RegisterOrLoginButton));
         if (driver.findElement(RegisterOrLoginButton).isDisplayed()) {
-            System.out.println("Register or Login button is visible");
+            System.out.println("Register or Sign In button is visible");
         } else {
-            System.out.println("Register or Login button is not visible");
+            System.out.println("Register or Sign In button is not visible");
         }
 
         // Click on the Login link

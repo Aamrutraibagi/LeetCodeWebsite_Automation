@@ -181,7 +181,7 @@
         {
           "object_notation": "RESPONSE",
           "operator": "contains",
-          "expected_value": "Register or Sign In"
+          "expected_value": "Register or Log in"
         }
       ],
       "error_out": "Check the submissions tab and verify if it shows \"Register or Sign In.\"",
